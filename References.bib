@@ -907,6 +907,7 @@
   author      = {Edwin Scott Lee},
   title       = {Development, Verification, and Implementation of a Horizontal Buried Pipe Ground Heat Transfer Model In EnergyPlus},
   year        = {2008},
+  address     = {Stillwater, OK},
   abstract    = {A buried pipe heat transfer model was developed and implemented within the EnergyPlus simulation program. A literature review revealed different solutions attempted for this problem, including analytic methods, finite difference solutions, and transfer function methods. Three separate models: a modified earth tube model, a fully radial finite difference model, and a mixed-coordinate finite difference model were tested against a robust verification model developed in Fluent. Fluent was used due to its ease of setting boundary conditions and developing a sufficient mesh. The earth tube model is currently implemented in EnergyPlus, and was tested both as an earth tube and a pipe. The model's extreme simplicity led to poor tests upon verification. The radial model encountered significant stability problems due to the explicit formulation of the model. The mixed-coordinate model proved the most stable and accurate of the finite difference models. Although transfer function methods were investigated, they were not selected due to convergence problems in thick soil. In addition to verification against the Fluent model, the models were tested under high flow rate testing which removes axial heat transfer, and constant pipe wall testing. After implementation and testing in VBA, the mixed-coordinate system model was selected for implementation in EnergyPlus. This model utilizes a radial coordinate system in the near pipe region, with a coarse Cartesian system throughout the rest of the domain. The finite difference equations are implicitly derived. At each cross section, 2D heat transfer is modeled, neglecting axial heat transfer. The far-field boundary is a function of time of year and ground depth based on known surface temperature data. The initial implementation in VBA agreed to the verification model with an annual RMS error of 1.72C on the exiting fluid temperature. The final implementation in EnergyPlus agreed to the VBA implementation to within 0.12C. This small deviation is related to the time step management difference between the two implementations. This model is currently implemented in the plant manager of EnergyPlus, and is available to better predict heat gains and losses in the ground for all buried pipes.},
   institution = {Oklahoma State University},
 }
@@ -1295,6 +1296,7 @@
   author      = {Manojkumar Selvakumar},
   title       = {Application of Lake and Surface Water Heat Exchanger Simulations for Energy Calculations and Determination of Design Temperature Constraints},
   year        = {2013},
+  address     = {Stillwater, OK},
   institution = {Oklahoma State University},
 }
 
@@ -1631,7 +1633,6 @@
   title       = {Multipole method to calculate borehole thermal resistances: mathematical report},
   institution = {Chalmers Technical University},
   year        = {2011},
-  type        = {techreport},
   number      = {2012-06-20},
   address     = {Gothenburg, Sweden},
 }
@@ -1705,6 +1706,7 @@
   booktitle = {12\textsuperscript{th} IEA Heat Pump Conference},
   year      = {2017},
   address   = {Rotterdam, Netherlands},
+  note      = {May 11--14},
 }
 
 @Article{MitchellSpitler2013,
@@ -1783,39 +1785,42 @@
   title     = {{Advances in Ground-Source Heat Pump Systems}},
   publisher = {Woodhead Publishing},
   year      = {2016},
-  author    = {Jeffrey D. Spilter and M. A. Bernier},
+  author    = {Jeffrey D. Spitler and M. A. Bernier},
   editor    = {Simon J. Rees},
+  address   = {Duxford, UK},
   isbn      = {ISBN: 978-0-08-100311-4},
 }
 
 @InProceedings{Spitler2000,
   author    = {Jeffrey D. Spitler},
-  title     = {{A Design Tool for Commercial Building Ground Loop Heat Exchangers}},
-  booktitle = {Fourth International Heat Pump in Cold Climates Conference},
+  title     = {{GLHEPro}---{A} design tool for commercial building ground loop heat exchangers},
+  booktitle = {4\textsuperscript{th} International Heat Pump in Cold Climates Conference},
   year      = {2000},
   address   = {Aylmer, Qu{\'e}bec},
+  note      = {August 17--18},
 }
 
 @InProceedings{MalayappanSpitler2013,
   author    = {V. Malayappan and Jeffrey D. Spitler},
-  title     = {{Limitation of Using Uniform Heat Flux Assumptions in Sizing Vertical Borehole Heat Exchanger Fields}},
-  booktitle = {Proceedings of Clima 2013},
+  title     = {Limitation of Using Uniform Heat Flux Assumptions in Sizing Vertical Borehole Heat Exchanger Fields},
+  booktitle = {Proceedings of CLIMA 2013},
   year      = {2013},
   address   = {Prague},
-  month     = jun,
+  note      = {June 16--19},
 }
 
 @InProceedings{XuSpitler2006,
   author    = {X. Xu and Jeffrey D. Spitler},
-  title     = {{Modeling of Vertical Ground Loop Heat Exchangers with Variable Convective Resistance and Thermal Mass of the Fluid}},
-  booktitle = {Proceedings of the 10\textsuperscript{th} International Conference on Thermal Energy Storage-Ecostock 2006},
+  title     = {Modeling of vertical ground loop heat exchangers with variable convective resistance and thermal mass of the fluid},
+  booktitle = {Proceedings of the 10\textsuperscript{th} International Conference on Thermal Energy Storage-{EcoStock} 2006},
   year      = {2006},
   address   = {Pomona, NJ},
+  note      = {May 31--June 2},
 }
 
 @TechReport{BennetClaessonHelstrom1987,
   author      = {J. Bennet and J. Claesson and G. Helstr{\"o}m},
-  title       = {{Multipole Method to Compute the Conductive Heat Flow to and Between Pipes in a Composite Cylinder}},
+  title       = {Multipole Method to Compute the Conductive Heat Flow to and Between Pipes in a Composite Cylinder},
   institution = {University of Lund, Department of Building and Mathematical Physics},
   year        = {1987},
   address     = {Lund, Sweden},
@@ -1823,7 +1828,7 @@
 
 @Article{MARCOTTE2009392,
   author   = {Denis Marcotte and Philippe Pasquier},
-  title    = {The effect of borehole inclination on fluid and ground temperature for GLHE systems},
+  title    = {The effect of borehole inclination on fluid and ground temperature for {GLHE} systems},
   journal  = {Geothermics},
   year     = {2009},
   volume   = {38},
@@ -1847,7 +1852,7 @@
 
 @Article{SPITLER20151125,
   author   = {Jeffrey D. Spitler and Signhild E.A. Gehlin},
-  title    = {Thermal response testing for ground source heat pump systems---An historical review},
+  title    = {Thermal response testing for ground source heat pump systems---{An} historical review},
   journal  = {Renewable and Sustainable Energy Reviews},
   year     = {2015},
   volume   = {50},
@@ -1882,8 +1887,10 @@
 @Article{IngersollPlass1948,
   author  = {L. R. Ingersoll and H. J. Plass},
   title   = {Theory of ground pipe heat source for the heat pump},
-  journal = {Heating Piping and Air Conditioning},
+  journal = {Piping and Air Conditioning},
   year    = {1948},
+  volume  = {20},
+  pages   = {119--122},
 }
 
 @Article{IngersollPlassIngersoll1951,
@@ -1891,12 +1898,14 @@
   title   = {Theory of earth heat exchangers for the heat pump},
   journal = {ASHVE Transactions},
   year    = {1951},
+  volume  = {57},
+  pages   = {167--188},
 }
 
-@InProceedings{Morgensen1983,
-  author       = {P. Morgensen},
+@InProceedings{Mogensen1983,
+  author       = {P. Mogensen},
   title        = {Fluid to duct wall heat transfer in dust system heat storages},
-  booktitle    = {International Conference onf Subsurface Heat Storage in Theory and Practice},
+  booktitle    = {International Conference on Subsurface Heat Storage in Theory and Practice},
   year         = {1983},
   address      = {Stockholm, Sweden},
   organization = {Swedish Council for Building Research},
@@ -1949,7 +1958,7 @@
 
 @Article{DECARLI20101537,
   author   = {Michele De Carli and Massimo Tonon and Angelo Zarrella and Roberto Zecchin},
-  title    = {A computational capacity resistance model (CaRM) for vertical ground-coupled heat exchangers},
+  title    = {A computational capacity resistance model ({CaRM}) for vertical ground-coupled heat exchangers},
   journal  = {Renewable Energy},
   year     = {2010},
   volume   = {35},
@@ -1974,7 +1983,7 @@
 
 @Article{PASQUIER2014281,
   author   = {Philippe Pasquier and Denis Marcotte},
-  title    = {Joint use of quasi-3D response model and spectral method to simulate borehole heat exchanger},
+  title    = {Joint use of quasi-{3D} response model and spectral method to simulate borehole heat exchanger},
   journal  = {Geothermics},
   year     = {2014},
   volume   = {51},
@@ -1988,7 +1997,7 @@
 
 @Article{PASQUIER201292,
   author   = {Philippe Pasquier and Denis Marcotte},
-  title    = {Short-term simulation of ground heat exchanger with an improved TRCM},
+  title    = {Short-term simulation of ground heat exchanger with an improved {TRCM}},
   journal  = {Renewable Energy},
   year     = {2012},
   volume   = {46},
@@ -2002,7 +2011,7 @@
 
 @Article{ZARRELLA20112357,
   author   = {Angelo Zarrella and Massimiliano Scarpa and Michele De Carli},
-  title    = {Short time step analysis of vertical ground-coupled heat exchangers: The approach of CaRM},
+  title    = {Short time step analysis of vertical ground-coupled heat exchangers: The approach of {CaRM}},
   journal  = {Renewable Energy},
   year     = {2011},
   volume   = {36},
@@ -2047,6 +2056,445 @@ The two borehole heat exchangers were analyzed over both long- and short-term pe
         https://doi.org/10.1108/09615531011065566
     
 },
+}
+
+@Article{EskilsonClaesson1988,
+  author  = {Per Eskilson and Johan Claesson},
+  title   = {Simulation model for thermally interacting heat extraction boreholes},
+  journal = {Numerical Heat Transfer},
+  year    = {1988},
+  volume  = {13},
+  pages   = {149--165},
+}
+
+@Article{YavuzturkSpitlerRees1999,
+  author  = {Cenk Yavuzturk and Jeffrey D. Spitler and Simon J. Rees},
+  title   = {A transient two-dimensional finite volume model for the simulation of vertical u-tube ground heat exchangers},
+  journal = {ASHRAE Transactions},
+  year    = {1999},
+  volume  = {105},
+  number  = {2},
+  pages   = {465--474},
+}
+
+@Article{HeReesShao2011,
+  author    = {Miaomiao He and Simon Rees and Li Shao},
+  title     = {Simulation of a domestic ground source heat pump system using a three-dimensional numerical borehole heat exchanger model},
+  journal   = {Journal of Building Performance Simulation},
+  year      = {2011},
+  volume    = {4},
+  number    = {2},
+  pages     = {141--155},
+  abstract  = { Common approaches to the simulation of borehole heat exchangers (BHEs) assume heat transfer in circulating fluid and grout to be in a quasi-steady state and ignore fluctuations in fluid temperature due to transport of the fluid around the loop. However, in domestic ground source heat pump (GSHP) systems, the heat pump and circulating pumps switch on and off during a given hour; therefore, the effect of the thermal mass of the circulating fluid and the dynamics of fluid transport through the loop has important implications for system design. This may also be important in commercial systems that are used intermittently. This article presents transient simulation of a domestic GSHP system with a single BHE using a dynamic three-dimensional (3D) numerical BHE model. The results show that delayed response associated with the transit of fluid along the pipe loop is of some significance in moderating swings in temperature during heat pump operation. In addition, when 3D effects are considered, a lower heat transfer rate is predicted during steady operations. These effects could be important when considering heat exchanger design and system control. The results will be used to develop refined two-dimensional models. },
+  doi       = {10.1080/19401493.2010.513739},
+  eprint    = {http://dx.doi.org/10.1080/19401493.2010.513739},
+  publisher = {Taylor \& Francis},
+  url       = { 
+        http://dx.doi.org/10.1080/19401493.2010.513739
+    
+},
+}
+
+@Article{NABI2012297,
+  author   = {M. Nabi and R. Al-Khoury},
+  title    = {An efficient finite volume model for shallow geothermal systems--{Part II}: Verification, validation and grid convergence},
+  journal  = {Computers \& Geosciences},
+  year     = {2012},
+  volume   = {49},
+  pages    = {297--307},
+  issn     = {0098-3004},
+  doi      = {https://doi.org/10.1016/j.cageo.2012.03.023},
+  keywords = {Geothermic, BHE, Geothermal heat pumps, Space heating, Heat transfer},
+  url      = {http://www.sciencedirect.com/science/article/pii/S0098300412001185},
+}
+
+@Article{NABI2012290,
+  author   = {M. Nabi and R. Al-Khoury},
+  title    = {An efficient finite volume model for shallow geothermal systems--{Part I}: Model formulation},
+  journal  = {Computers \& Geosciences},
+  year     = {2012},
+  volume   = {49},
+  pages    = {290--296},
+  issn     = {0098-3004},
+  doi      = {https://doi.org/10.1016/j.cageo.2012.03.019},
+  keywords = {Ground-source heat pump, Borehole heat exchanger, BHE, Finite volume, Multigrid},
+  url      = {http://www.sciencedirect.com/science/article/pii/S0098300412001148},
+}
+
+@Article{NME:NME1313,
+  author    = {Al-Khoury, R. and Bonnier, P. G. and Brinkgreve, R. B. J.},
+  title     = {Efficient finite element formulation for geothermal heating systems--{Part I}: steady state},
+  journal   = {International Journal for Numerical Methods in Engineering},
+  year      = {2005},
+  volume    = {63},
+  number    = {7},
+  pages     = {988--1013},
+  issn      = {1097-0207},
+  abstract  = {This paper presents the development of a computationally efficient finite element tool for the analysis of 3D steady state heat flow in geothermal heating systems. Emphasis is placed on the development of finite elements for vertical borehole heat exchangers and the surrounding soil layers. Three factors have contributed to the computational efficiency: the proposed mathematical model for the heat exchanger, the discretization of the spatial domain using the Petrov–Galerkin method and the sequential numerical algorithm for solving the resulting system of non-linear equations. These have contributed in reducing significantly the required number of finite elements necessary for describing the involved systems. Details of the mathematical derivations and some numerical examples are presented. Copyright © 2005 John Wiley & Sons, Ltd.},
+  doi       = {10.1002/nme.1313},
+  keywords  = {geothermal heating, borehole heat exchanger, Petrov–Galerkin},
+  publisher = {John Wiley \& Sons, Ltd.},
+  url       = {http://dx.doi.org/10.1002/nme.1313},
+}
+
+@Article{NME:NME1662,
+  author    = {Al-Khoury, R. and Bonnier, P. G.},
+  title     = {Efficient finite element formulation for geothermal heating systems--{Part II}: transient},
+  journal   = {International Journal for Numerical Methods in Engineering},
+  year      = {2006},
+  volume    = {67},
+  number    = {5},
+  pages     = {725--745},
+  issn      = {1097-0207},
+  abstract  = {This paper presents an extension to the work presented in Part I of this series of two articles to the transient case. Emphasis is placed on the development of a new model for heat flow in a double U-shape vertical borehole heat exchanger and its thermodynamic interactions with surrounding soil mass. The discretization of the spatial-temporal domain of the heat pipe model is done by the use of the space–time finite element technique in conjunction with the Petrov–Galerkin method and the finite difference method. The paper shows that the proposed model and the choice of the discretization technique, in addition to the utilization of a sequential numerical algorithm for solving the resulting system of non-linear equations, have contributed in reducing significantly the required number of finite elements necessary for describing geothermal heating systems. Details of the mathematical derivations and comparison to experimental data are presented. Copyright © 2006 John Wiley & Sons, Ltd.},
+  doi       = {10.1002/nme.1662},
+  keywords  = {geothermal heating, borehole heat exchanger, space–time finite element},
+  publisher = {John Wiley \& Sons, Ltd.},
+  url       = {http://dx.doi.org/10.1002/nme.1662},
+}
+
+@Article{Doyle1988,
+  author  = {J. F. Doyle},
+  title   = {Spectral analysis of coupled thermoelastic waves},
+  journal = {Journal of Thermal Stress},
+  year    = {1988},
+  volume  = {11},
+  pages   = {175--185},
+}
+
+@Book{Doyle1997,
+  title     = {Wave propigation in structures: Spectral analysis using fast discrete {Fourier} transforms},
+  publisher = {Springer-Verlag},
+  year      = {1997},
+  author    = {J. F. Doyle},
+  address   = {New York, NY},
+}
+
+@Article{CRAWLEY2001319,
+  author   = {Drury B. Crawley and Linda K. Lawrie and Frederick C. Winkelmann and W.F. Buhl and Y.Joe Huang and Curtis O. Pedersen and Richard K. Strand and Richard J. Liesen and Daniel E. Fisher and Michael J. Witte and Jason Glazer},
+  title    = {{EnergyPlus}: creating a new-generation building energy simulation program},
+  journal  = {Energy and Buildings},
+  year     = {2001},
+  volume   = {33},
+  number   = {4},
+  pages    = {319--331},
+  issn     = {0378-7788},
+  abstract = {Many of the popular building energy simulation programs around the world are reaching maturity — some use simulation methods (and even code) that originated in the 1960s. For more than two decades, the US government supported development of two hourly building energy simulation programs, BLAST and DOE-2. Designed in the days of mainframe computers, expanding their capabilities further has become difficult, time-consuming, and expensive. At the same time, the 30 years have seen significant advances in analysis and computational methods and power — providing an opportunity for significant improvement in these tools.
+In 1996, a US federal agency began developing a new building energy simulation tool, EnergyPlus, building on development experience with two existing programs: DOE-2 and BLAST. EnergyPlus includes a number of innovative simulation features — such as variable time steps, user-configurable modular systems that are integrated with a heat and mass balance-based zone simulation — and input and output data structures tailored to facilitate third party module and interface development. Other planned simulation capabilities include multizone airflow, and electric power and solar thermal and photovoltaic simulation. Beta testing of EnergyPlus began in late 1999 and the first release is scheduled for early 2001.},
+  doi      = {https://doi.org/10.1016/S0378-7788(00)00114-6},
+  keywords = {Building performance, Simulation, Energy performance, Heat balance, Mass balance, Modular simulation},
+  url      = {http://www.sciencedirect.com/science/article/pii/S0378778800001146},
+}
+
+@Article{BECKMAN1994486,
+  author   = {William A. Beckman and Lars Broman and Alex Fiksel and Sanford A. Klein and Eva Lindberg and Mattias Schuler and Jeff Thornton},
+  title    = {{TRNSYS} The most complete solar energy system modeling and simulation software},
+  journal  = {Renewable Energy},
+  year     = {1994},
+  volume   = {5},
+  number   = {1},
+  pages    = {486--488},
+  issn     = {0960-1481},
+  abstract = {Abstract The five computer programs TRNSYS, PRESIM, TRNSED, ONLINE and PREBID have been put together into a program package which is the most complete solar energy system modeling and simulation software that is available today.},
+  doi      = {https://doi.org/10.1016/0960-1481(94)90420-0},
+  keywords = {Solar energy, computer simulation, modeling, TRNSYS, TRNSED, PRESIM, ONLINE, PREBID},
+  url      = {http://www.sciencedirect.com/science/article/pii/0960148194904200},
+}
+
+@Article{HOLMBERG2016134,
+  author   = {Henrik Holmberg and Jos{\'e} Acu{\~n}a and Erling N{\ae}ss and Otto K. S{\o}nju},
+  title    = {Numerical model for non-grouted borehole heat exchangers, {Part 2---Evaluation}},
+  journal  = {Geothermics},
+  year     = {2016},
+  volume   = {59},
+  pages    = {134--144},
+  issn     = {0375-6505},
+  abstract = {Abstract In this paper a simplified and not fully discretized numerical model is used to simulate the performance of a non-grouted (water filled) borehole heat exchanger (BHE). The model enables simulation of the initial transient behavior of a BHE and gives transparent insight into the heat transfer mechanism acting during the startup and operation of the BHE installation. To account for the thermal effect of natural convection that arises in non-grouted BHEs, the model is complemented with a Nusselt-correlation. The model is presented in detail in Holmberg et al. (2014) and in the present paper it is evaluated based on distributed temperature measurements from Acuña (2010). The measurements were obtained during a distributed thermal response test (DTRT) and during heat pump operation, both on a 261m deep borehole equipped with a U-tube collector and a distributed temperature sensing system. Despite the simplifications involved with the model, it agrees well with the measured data even on a time scale on the order of minutes. The Nusselt number related to natural convection in the borehole was found to be 6.4 during the DTRT and 3.68 during heat pump operation. This indicates the large differences in the borehole thermal resistance during heat injection and heat extraction.},
+  doi      = {https://doi.org/10.1016/j.geothermics.2014.11.002},
+  keywords = {Ground source heat pump, Borehole heat exchanger, Natural convection, Simulation, Numerical},
+  url      = {http://www.sciencedirect.com/science/article/pii/S0375650514001321},
+}
+
+@Conference{GehlinSpitlerHelstrom2016,
+  author    = {Singhild E. A. Gehlin and Jeffrey D. Spitler and G{\"o}ran Hellstr{\"o}m},
+  title     = {Deep boreholes for ground source heat pump systems--{Scandinavian} experience and future prospects},
+  booktitle = {ASHRAE Winter Conference},
+  year      = {2016},
+  note      = {January 23--27},
+}
+
+@Article{RUIZCALVO2015210,
+  author   = {F. Ruiz-Calvo and M. De Rosa and J. Acu{\~n}a and J.M. Corber{\'a}n and C. Montagud},
+  title    = {Experimental validation of a short-term Borehole-to-Ground {(B2G)} dynamic model},
+  journal  = {Applied Energy},
+  year     = {2015},
+  volume   = {140},
+  pages    = {210--223},
+  issn     = {0306-2619},
+  doi      = {https://doi.org/10.1016/j.apenergy.2014.12.002},
+  keywords = {Ground source heat pump, Borehole heat exchanger, Heating and cooling systems, Dynamic modeling},
+  url      = {http://www.sciencedirect.com/science/article/pii/S0306261914012513},
+}
+
+@Article{LaxWendroff1960,
+  author    = {Lax, Peter and Wendroff, Burton},
+  title     = {Systems of conservation laws},
+  journal   = {Communications on Pure and Applied Mathematics},
+  year      = {1960},
+  volume    = {13},
+  number    = {2},
+  pages     = {217--237},
+  issn      = {1097-0312},
+  doi       = {10.1002/cpa.3160130205},
+  publisher = {Wiley Subscription Services, Inc., A Wiley Company},
+  url       = {http://dx.doi.org/10.1002/cpa.3160130205},
+}
+
+@InProceedings{CazorlaMartin2017,
+  author       = {Antonio Cazorla-Mar{\'i}n and Carla Montagud and {\'A}lvaro Montero and Julio Martos and Jos{\'e} Miguel Corber{\'a}n},
+  title        = {Influence of different ground thermal properties in a borehole heat exchanger's performance using the {B2G} dynamic model},
+  booktitle    = {IGSHPA Technical/Research Conference Proceedings},
+  year         = {2017},
+  pages        = {192--200},
+  address      = {Denver},
+  organization = {IGSHPA},
+  note         = {March 14--16},
+}
+
+@InBook{JavedSpitler2016,
+  chapter   = {Calculation of borehole thermal resistance},
+  pages     = {63--95},
+  title     = {Advances in Ground-Source Heat Pump Systems},
+  publisher = {Woodhead Publishing},
+  year      = {2016},
+  author    = {Saqib Javed and Jeffrey D. Spitler},
+  editor    = {Simon J. Rees},
+  address   = {Duxford, UK},
+}
+
+@MastersThesis{AlChalib2013,
+  author  = {R. Al-Chalabi},
+  title   = {Thermal resistance of u-tube borehole heat exchanger system: numerical study},
+  school  = {University of Manchester},
+  year    = {2013},
+  type    = {Masters thesis},
+  address = {Manchester, UK},
+}
+
+@PhdThesis{He2012,
+  author  = {M. He},
+  title   = {Numerical modeling of geothermal borehole heat exchanger systems},
+  school  = {De Montfort University},
+  year    = {2012},
+  address = {Leicester, UK},
+}
+
+@Article{GoLeeYoonParkPark2014,
+  author  = {G. H. Go and S. R. Lee and S. Yoon and H. Park and S. Park},
+  title   = {Estimation and experimental validation of borehole thermal resistance},
+  journal = {KSCE Journal of Civil Engineering},
+  year    = {2014},
+  volume  = {18},
+  number  = {4},
+  pages   = {992--1000},
+}
+
+@Article{LamarcheKajiBeauchamp2010,
+  author  = {L. Lamarche and K. Kaji and B. Beauchamp},
+  title   = {A review of methods to evaluate borehole thermal resistances in geothermal heat exchangers},
+  journal = {Geothermics},
+  year    = {2010},
+  volume  = {39},
+  number  = {2},
+  pages   = {187--200},
+}
+
+@Article{LiaoZhouCuiJen2012,
+  author  = {Q. Liao and C. Zhou and W. Cui and T. C. Jen},
+  title   = {New correlations for thermal resistances of vertical single u-tube ground heat exchanger},
+  journal = {Journal of Themal Science and Engineering Applications},
+  year    = {2012},
+  volume  = {4},
+  number  = {3},
+  pages   = {031010-031010-7},
+}
+
+@Manual{TRNSYS2016,
+  title        = {{TRNSYS} manual: a transient simulation program},
+  author       = {S. A. Klein and W. A. Beckman and J. W. Mitchell and J. A. Duffie and N. A. Duffie and T.L. Freeman and J. C. Mitchell and J. E. Braun and B. L. Evans and J. P. Kummer and R. E. Urban and A. Fiksel and J. W. Thornton and N. J. Blair and P. M. Williams and D. E. Bradley and T. P. McDowell and M. Kummert and D. A. Arias and M. J. Duffy},
+  organization = {Solar Engineering Laboratory. University of Wisconsin-Madison},
+  address      = {Madison, WI},
+  year         = {2016},
+}
+
+@MastersThesis{Murugappan2002,
+  author  = {A. Murugappan},
+  title   = {Implementing ground source heat pump and ground loop heat exchanger models in the {EnergyPlus} simulation environment},
+  school  = {Oklahoma State University},
+  year    = {2002},
+  type    = {Master's thesis},
+  address = {Stillwater, OK},
+}
+
+@PhdThesis{Liu2005,
+  author  = {X. Liu},
+  title   = {Development and experimental validation of simulation of hydronic snow melting systems for briges},
+  school  = {Oklahoma State University},
+  year    = {2005},
+  address = {Stillwater, OK},
+}
+
+@Article{MARCOTTE2008651,
+  author   = {Denis Marcotte and Philippe Pasquier},
+  title    = {Fast fluid and ground temperature computation for geothermal ground-loop heat exchanger systems},
+  journal  = {Geothermics},
+  year     = {2008},
+  volume   = {37},
+  number   = {6},
+  pages    = {651--665},
+  issn     = {0375-6505},
+  abstract = {Abstract Heat pumps (HPs) coupled to ground-loop heat exchangers (GLHEs) have become increasingly popular for heating and cooling purposes in the context of growing energy costs. Precise design of GLHEs requires the computation of hourly fluid and ground temperatures, especially when the geothermal system is coupled to another system (e.g. boiler, cooling tower). However, because of the computational burden, hourly computation is often simplified in actual designs by rules of thumb or approximations that can cause over- or under-design of the GLHE system. The hourly temperature computation can be seen as a convolution in the time domain that is most efficiently evaluated by fast Fourier transform (FFT). An additional substantial reduction in computing time is obtained by subsampling the analytical function at a few selected times according to a geometric sequence and then using a good quality interpolant such as the cubic spline. This combined “FFT-S approach” enables one to obtain a 30-year hourly simulation in less than a second on a standard laptop computer, even for the computationally intensive finite line-source model. This reduction of one to two orders of magnitude in computing time compared to time-domain approaches with load aggregation should help promote the use of hourly temperature simulation for GLHE design purposes.},
+  doi      = {https://doi.org/10.1016/j.geothermics.2008.08.003},
+  keywords = {Geothermal, Groundwater heat pumps, Fast Fourier transform},
+  url      = {http://www.sciencedirect.com/science/article/pii/S0375650508000552},
+}
+
+@Article{KruisKrarti2015,
+  author    = {Neal Kruis and Moncef Krarti},
+  title     = {Kiva\textsuperscript{TM}: a numerical framework for improving foundation heat transfer calculations},
+  journal   = {Journal of Building Performance Simulation},
+  year      = {2015},
+  volume    = {8},
+  number    = {6},
+  pages     = {449--468},
+  abstract  = {KivaTM was developed to evaluate the energy performance of building foundation designs. This free, open-source tool can be integrated into existing annual building energy simulation software tools. This article describes the verification of Kiva's six numerical solution methods against the International Energy Agency Building Energy Simulation Test and Diagnostic Method test cases for slab-on-grade heat conduction. Comparisons of accuracy, computation time and stability between the numerical solution methods revealed their advantages and disadvantages. While each solution method satisfactorily approximates slab heat loss, many methods exhibited stability issues or required substantially longer computation time. The method least affected by these two challenges was the alternating-direction implicit (ADI) method. Kiva features four approaches of initializing the soil temperatures for an annual simulation. A new accelerated initialization approach is shown to reduce the required years of pre-simulation. The combination of the ADI method and accelerated initialization reduces the total computation time by 95\% relative to the traditional implicit solutions.},
+  doi       = {10.1080/19401493.2014.988753},
+  eprint    = {https://doi.org/10.1080/19401493.2014.988753},
+  publisher = {Taylor \& Francis},
+  url       = {https://doi.org/10.1080/19401493.2014.988753},
+}
+
+@PhdThesis{Lee2013,
+  author  = {Edwin S. Lee},
+  title   = {An improved hydronic loop system solution algorithm with a zone-coupled horizontal ground heat exchanger model for whole building energy simulation},
+  school  = {Oklahoma State University},
+  year    = {2013},
+  address = {Stillwater, OK},
+}
+
+@InProceedings{JuhlinGehlin2017,
+  author       = {Kristina Juhlin and Signhild Gehlin},
+  title        = {Vertical {GSHP} systems in {Sweden} 1978--2015: A survey based on the {Swedish} well database},
+  booktitle    = {IGSHPA Technical/Research Conference Proceedings},
+  year         = {2017},
+  pages        = {18--25},
+  address      = {Denver},
+  organization = {IGSHPA},
+  note         = {March 14--16},
+}
+
+@Article{SPITLER2016352,
+  author   = {Jeffrey D. Spitler and Saqib Javed and Randi Kalskin Ramstad},
+  title    = {Natural convection in groundwater-filled boreholes used as ground heat exchangers},
+  journal  = {Applied Energy},
+  year     = {2016},
+  volume   = {164},
+  pages    = {352--365},
+  issn     = {0306-2619},
+  abstract = {Abstract In most of the world, borehole heat exchangers used with closed-loop ground source heat pump systems are backfilled with a low permeability grout to prevent water contamination. However, in Scandinavian countries, a different approach is taken – the borehole is sealed at the top and cased down to solid bedrock. The borehole then naturally fills with groundwater in the annular space between the U-tube and the borehole wall. Compared to grouted boreholes, the groundwater filling is advantageous in that it generally results in low borehole thermal resistance due to buoyancy-driven natural convection enhancing the heat transfer. Although this phenomena has been reported in several papers since the late 1980s, no calculation models have been available for use in either design tools or simulation programs. This paper presents experimental measurements from a single well-instrumented borehole under a range of heat transfer rates and annulus temperatures. Nusselt numbers for natural convection in the annulus are correlated against modified Rayleigh number. The results are verified by comparing to borehole thermal resistances predicted with the correlations to actual measurements from a range of boreholes in Sweden and Norway.},
+  doi      = {https://doi.org/10.1016/j.apenergy.2015.11.041},
+  keywords = {Ground source heat pump systems, Ground heat exchangers, Borehole heat exchangers, Natural convection heat transfer, Borehole thermal resistance, Thermal response test},
+  url      = {http://www.sciencedirect.com/science/article/pii/S0306261915014919},
+}
+
+@InProceedings{YuRangZhaoZhangFang2017,
+  author       = {Mingzhi Yu and Hongmei Rang and Jinbao Zhao and Kai Zhang and Zhaohong Fang},
+  title        = {Influence of ground heat exchanger zoning operation on the {GSHP} system long-term operation performance},
+  booktitle    = {IGSHPA Technical/Research Conference Proceedings},
+  year         = {2017},
+  pages        = {144--151},
+  address      = {Denver},
+  organization = {IGSHPA},
+  note         = {March 14--16},
+}
+
+@InProceedings{BernierCauret2014,
+  author       = {Michel Bernier and Odile Cauret},
+  title        = {Modeling of short geothermal boreholes in series with experimental validation},
+  booktitle    = {11\textsuperscript{th} IEA Heat Pump Conference},
+  year         = {2014},
+  address      = {Montr{\'e}al},
+  organization = {International Energy Agency},
+  note         = {May 12--16},
+}
+
+@Conference{Claesson2013,
+  author       = {Joachim Claesson},
+  title        = {Performance evaluation of combined heat sources for innovative heat pumps -- ground source combined with an air coil},
+  booktitle    = {CLIMA 2013},
+  year         = {2013},
+  address      = {Prague},
+  organization = {RHEVA},
+  note         = {June 16--19},
+}
+
+@Book{EnergyPlus8.8,
+  title     = {{EnergyPlus\textsuperscript{TM} Version 8.8.0 Documentation: Engineering Reference}},
+  publisher = {U.S. Department of Energy},
+  year      = {2017},
+  author    = {EnergyPlus},
+}
+
+@TechReport{Deru2011,
+  author      = {Deru, M. and Field, K. and Studer, D. and Benne, K. and Griffith, B. and Torcellini, P. and Liu, B. and Halverson, M. and Winiarski, D. and Rosenberg, M. and Yazdanian, M. and Huang, J. and Crawley, D.},
+  title       = {{U.S. Department of Energy} commercial reference building models of the national building stock},
+  institution = {NREL},
+  year        = {2011},
+  number      = {TP-5500-46861},
+  address     = {Golden, CO.},
+}
+
+@TechReport{HammockSullens2017,
+  author      = {Charles W. Hammock and Stephen Sullens},
+  title       = {Coupling Geothermal Heat Pumps with Underground Seasonal Thermal Energy Storage},
+  institution = {Environmental Security Technology Certification Program},
+  year        = {2017},
+  number      = {EW-201135},
+  address     = {Alexandria, VA},
+}
+
+@PhdThesis{Holmberg2016,
+  author  = {Henrik Holmberg},
+  title   = {Transient heat transfer in boreholes with application to non-grouted borehole heat exchangers and closed loop engineered geothermal systems},
+  school  = {Norwegian University of Science and Technology},
+  year    = {2016},
+  address = {Trondheim, Norway},
+}
+
+@Article{ReesSpitlerDengOrioJohnson2004,
+  author  = {Simon J. Rees and Jeffrey D. Spitler and Zheng Deng and Carl D. Orio and Carl N. Johnson},
+  title   = {A study of geothermal heat pump and standing column well performance},
+  journal = {ASHRAE Transactions},
+  year    = {2004},
+  volume  = {109},
+  number  = {1},
+  pages   = {3--13},
+}
+
+@Manual{GLHEPro5,
+  title        = {{GLHEPro} 5.0 for Windows User's Guide},
+  author       = {GLHEPro},
+  organization = {Oklahoma State University},
+  address      = {Stillwater, OK},
+  year         = {2016},
+}
+
+@Conference{GodefroyLecomteBernierDouglasArmstrong2016,
+  author    = {Vivien Godefroy and Corentin Lecomte and Michel Bernier and Mark Douglas and Marianne Armstrong},
+  title     = {Experimental validation of a thermal reistance and capacity model for geothermal boreholes},
+  booktitle = {ASHRAE Winter Conference},
+  year      = {2016},
+  note      = {January 23--27},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
