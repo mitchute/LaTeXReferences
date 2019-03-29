@@ -690,7 +690,7 @@
   year      = {1984},
   author    = {Holman, J. P. and Gajda Jr, W. J.},
   address   = {New York, NY},
-  edition   = {4\textsuperscript{th}},
+  edition   = {4\textsuperscript{th}}
 }
 
 @Article{Hondzo1993,
@@ -825,7 +825,7 @@
   year      = {2005},
   author    = {Kays, William and Crawford, Michael and Weigand, Bernhard},
   address   = {New York, NY},
-  edition   = {4\textsuperscript{th}},
+  edition   = {4\textsuperscript{th}}
 }
 
 @InProceedings{Keens1977,
@@ -1587,10 +1587,10 @@
 @Book{1982,
   title     = {Sj{\"o}v{\"a}rmesystem},
   publisher = {Byggforskningsr\r{a}det},
-  year      = {1982},
   number    = {R143:1982},
   series    = {BFR-seminarium maj 1982},
   booktitle = {BFR-seminarium},
+  year      = {1982},
 }
 
 @Article{Javed2011,
@@ -1780,7 +1780,7 @@
   title     = {Modeling of Vertical Ground Loop Heat Exchangers with Variable Convective Resistance and Thermal Mass of the Fluid},
   booktitle = {Proceedings of the 10\textsuperscript{th} International Conference on Thermal Energy Storage-{EcoStock} 2006},
   year      = {2006},
-  address   = {Pomona, NJ},
+  address   = {Pomona, NJ, USA},
   note      = {May 31--June 2},
 }
 
@@ -2210,15 +2210,15 @@ In 1996, a US federal agency began developing a new building energy simulation t
   url       = {http://dx.doi.org/10.1002/cpa.3160130205},
 }
 
-@InProceedings{CazorlaMartin2017,
-  author       = {Antonio Cazorla-Mar{\'i}n and Carla Montagud and {\'A}lvaro Montero and Julio Martos and Jos{\'e} Miguel Corber{\'a}n},
-  title        = {Influence of Different Ground Thermal Properties in a Borehole Heat Exchanger's Performance Using the {B2G} Dynamic Model},
-  booktitle    = {IGSHPA Technical/Research Conference Proceedings},
-  year         = {2017},
-  pages        = {192--200},
-  address      = {Denver},
+@InProceedings{Cimmino2018_IGSHPA,
+  author       = {Massimo Cimmino},
+  title        = {{g-Functions} for bore fields with mixed parallel and series connections considering axial fluid temperature variations},
+  booktitle    = {IGSHPA Research Conference Proceedings},
+  year         = {2018},
+  pages        = {262--271},
+  address      = {Stockholm, Sweden},
   organization = {IGSHPA},
-  note         = {March 14--16},
+  note         = {September 18--19},
 }
 
 @InBook{JavedSpitler2016,
@@ -3256,12 +3256,12 @@ In 1996, a US federal agency began developing a new building energy simulation t
   url      = {http://www.sciencedirect.com/science/article/pii/S0378778817337544},
 }
 
-@Misc{GoogleNgrams,
+@misc{GoogleNgrams,
   author       = {Google},
   title        = {{Google Books Ngrams Viewer}},
-  howpublished = {\url{http://books.google.com/ngrams}},
   year         = {2018},
   publisher    = {Google},
+  howpublished = {\url{http://books.google.com/ngrams}},
 }
 
 @PhdThesis{Cullin2014,
@@ -3272,12 +3272,12 @@ In 1996, a US federal agency began developing a new building energy simulation t
   address = {Stillwater, OK},
 }
 
-@Misc{DOEWeatherData,
+@misc{DOEWeatherData,
   author       = {DOE},
   title        = {{Weather Data}},
-  howpublished = {\url{https://energyplus.net/weather}},
   year         = {2018},
   publisher    = {U.S. Department of Energy},
+  howpublished = {\url{https://energyplus.net/weather}},
 }
 
 @Article{NSGA2,
@@ -3353,7 +3353,6 @@ In 1996, a US federal agency began developing a new building energy simulation t
   title    = {Thermal modeling of walls foundations and whole buildings using dynamic thermal networks},
   school   = {Chalmers University of Technology},
   year     = {2005},
-  type     = {phdthesis},
   address  = {G{\"o}teborg, Sweden},
   abstract = {The modeling of the energy balance of buildings is a major task in building physics. In a new theory called dynamic thermal networks, developed at the Building Physics Research Group at Chalmers, the calculations are based on step- response functions, and the problems are illustrated in so-called dynamic networks. Long time scales for heat flux through building foundations and the surrounding ground are handled by a special reduction procedure.
 
@@ -3362,6 +3361,94 @@ The aim of this thesis is to apply the theory to increase knowledge of the facto
 The step-response functions for one-dimensional cases are calculated analytically by using a combination of Fourier and Laplace techniques. The response functions for two- and three-dimensional cases are calculated numerically. Analytical expressions are fitted to the numerical values for short and long time to give better precision and faster calculation time.
 
 The work reported in the thesis shows that it is fairly simple to apply the theory to heat balances. A building’s heat balance can be calculated in a few minutes only for a time step of one hour during a year with an ordinary desktop computer. The full accuracy of the calculations for the three-dimensional step-response heat flow process in the building’s envelope is essentially retained in the modeling during the annual cycle. The investigations of the thermal behavior of buildings and different building components show that a great deal of information can be gained from the response functions.},
+}
+
+@Article{FisherReesPadMurg2006,
+  author    = {Daniel E. Fisher and Simon J. Rees and S. K. Padhmanabhan and A. Murugappan},
+  title     = {Implementation and validation of ground-source heat pump system models in an integrated building and system simulation environment},
+  journal   = {HVAC\&R Research},
+  year      = {2006},
+  volume    = {12},
+  number    = {3a},
+  pages     = {693--710},
+  abstract  = { Despite the low energy consumption and lower maintenance benefits of ground-source heat pump (GSHP) systems, little work has been undertaken in detailed analysis and simulation of such systems. Long-term transient ground heat transfer significantly affects the performance of these systems. Annual and multi-year simulation consequently becomes an invaluable tool in the design of such systems—both in terms of calculating annual building loads and long-term ground thermal response. The EnergyPlus program, which makes use of variable time-step sizes in its simulation of building systems, was extended to allow multi-year simulations. Models of a water-source heat pump and a vertical borehole ground-loop heat exchanger have been implemented in Energy-Plus. The ground heat exchanger model uses Eskilson's “g-functions” to model response to time-varying heat fluxes and has been extended to include a computationally efficient variable time-step load aggregation scheme. The performance of this model has been compared with an analytical line source approximation. For a steady periodic input that included pulsated heat extraction, the model agreed with the analytical solution to within 2°C. The heat pump model was able to predict power and heat transfer rates over a wide range of operating conditions to within ±10\% of published data. Experimental data from the Oklahoma State Hybrid Ground Source Heat Pump Laboratory have been used to validate both the heat pump and ground heat exchanger models. System simulation results were compared with five days of experimental data. The results showed an average error in the predicted ground heat transfer rate of less than 6\% and average errors in the predicted heat pump power and the predicted source-side heat transfer rate of less than 3\% and 4\%, respectively. Using these models, it is possible to represent GSHP systems in a flexible way and examine their performance over the extended periods required for proper analysis. },
+  doi       = {10.1080/10789669.2006.10391201},
+  eprint    = {https://www.tandfonline.com/doi/pdf/10.1080/10789669.2006.10391201},
+  publisher = {Taylor \& Francis},
+}
+
+@InProceedings{LuiHellstrom2006,
+  author    = {Xiaobing Liu and Goran Helstr{\"o}m},
+  title     = {Enhancements of an integrated simulation tool for ground-source heat pums system design and energy analysis},
+  booktitle = {Proceedings of the 10\textsuperscript{th} International Conference on Thermal Energy Storage-{EcoStock} 2006},
+  year      = {2006},
+  pages     = {331--338},
+  address   = {Pomona, NJ, USA},
+}
+
+@Article{Sibbitt2012,
+  author   = {Bruce Sibbitt and Doug McClenahan and Reda Djebbar and Jeff Thornton and Bill Wong and Jarrett Carriere and John Kokko},
+  title    = {The Performance of a High Solar Fraction Seasonal Storage District Heating System – Five Years of Operation},
+  journal  = {Energy Procedia},
+  year     = {2012},
+  volume   = {30},
+  pages    = {856--865},
+  issn     = {1876-6102},
+  note     = {1st International Conference on Solar Heating and Coolingfor Buildings and Industry (SHC 2012)},
+  abstract = {The Drake Landing Solar Community in Okotoks, Alberta, Canada utilizes a solar thermal system with borehole seasonal storage to supply space heating to 52 detached energy-efficient homes through a district heating network. Systems of similar size and configuration have been constructed in Europe, however, this is the first system of this type designed to supply more than 90% of the space heating with solar energy and the first operating in such a cold climate (5200 degree C-days). Solar heat captured in 2293 m2 of flat-plate collectors, mounted on the roofs of detached garages, is stored in soil underground and later when needed for space heating, is extracted and distributed through a district system to each home in the subdivision. Independent solar domestic hot water systems installed on every house are designed to supply more than 50% of the water heating load. Annual greenhouse gas emission reductions from energy efficiency improvements and solar energy supply exceed 5 tonnes per house. The seasonal storage utilizes approximately 34,000 m3 of earth and a grid of 144 boreholes with single u-tube heat exchangers. The system is configured to maintain the centre of the field at the highest temperature to maximize heating capacity and the outer edges at the lowest temperature to minimize losses. A short -term thermal storage consisting of 240 m3 of water is used to interconnect the collection, distribution and seasonal heat storage subsystems. The system has undergone detailed monitoring since it was brought into service in July 2007 to characterize its performance and to improve the TRNSYS model employed in its design. A solar fraction of 97% in its fifth year of operation, convincingly confirms the design target, a solar fraction of more than 90% in year five, has been met. This paper describes the system and its operation, presents 5 years of measured performance and compares those results against the TRNSYS predicted performance for the same period.},
+  doi      = {https://doi.org/10.1016/j.egypro.2012.11.097},
+  keywords = {Solar district heating, Seasonal heat storage, High solar fraction, Monitored performance, TRNSYS modeling},
+  url      = {http://www.sciencedirect.com/science/article/pii/S187661021201613X},
+}
+
+@Article{AbdelazizOlgunMartin2015,
+  author   = {Sherif L. Abdelaziz and C. Guney Olgun and James R. Martin II},
+  title    = {Equivalent energy wave for long-term analysis of ground coupled heat exchangers},
+  journal  = {Geothermics},
+  year     = {2015},
+  volume   = {53},
+  pages    = {67--84},
+  issn     = {0375-6505},
+  abstract = {This paper presents a robust approach to develop ground thermal loads to be used for the long-term analysis of ground-coupled heat exchangers. The thermal loads developed using the proposed approach are simple, yet accounts for the hourly variation of the thermal loads. The analysis to develop these ground thermal loads is based on the change-point statistical analysis to determine the heating and cooling episodes. Heating and cooling loads are then converted into sine waves with an equivalent amplitude and the episodes determined from the change-point statistical analysis. Using the approximated equivalent sine waves, finite element or finite difference methods can be utilized to predict the long-term performance of the heat exchangers. The proposed methodology is compared to other existing approaches and showed better representation of the varying hourly ground thermal loads for a 1 year period. Moreover, a long-term thermal performance is predicted using the equivalent sine waves developed for balanced and unbalanced ground loads.},
+  doi      = {https://doi.org/10.1016/j.geothermics.2014.04.006},
+  keywords = {Geothermal, Energy pile, Heat exchanger, Long-term performance},
+  url      = {http://www.sciencedirect.com/science/article/pii/S0375650514000534},
+}
+
+@Article{AbdelazizOzudogruOlgunMartin2014,
+  author   = {Sherif L. Abdelaziz and Tolga Y. Ozudogru and C. Guney Olgun and James R. Martin},
+  title    = {Multilayer finite line source model for vertical heat exchangers},
+  journal  = {Geothermics},
+  year     = {2014},
+  volume   = {51},
+  pages    = {406--416},
+  issn     = {0375-6505},
+  abstract = {This paper introduces a finite line source model for vertical heat exchangers considering a layered soil profile. The existing analytical models assume a homogeneous soil profile, where the thermal properties of the ground along the entire length of the heat exchanger are uniform. This assumption can be unreliable since the typical length of heat exchangers is 60–100m (200–300ft.) and stratified ground is expected over this length. In the approach presented herein, the heat exchanger is divided into a number of segments to represent various soil layers along its length. Heat exchange induced temperature change at a certain location within the soil formation is evaluated by summing up the individual contributions of all these segments. The effect of the heat exchanger segment within the soil layer around itself is estimated using the finite line source model. Furthermore, the finite line source model is utilized on transformed sections for estimating the contributions of heat exchanger segments at locations outside their layer domains. The proposed model also incorporates two adjustments; the first accounts for the different heat rates within different soil layers while the second adjustment considers the heat exchange along the vertical direction between soil layers. Estimated results using the proposed model agree well with the results obtained from a calibrated finite element analysis. The proposed procedure is promising and can also be adapted within the framework of cylindrical models.},
+  doi      = {https://doi.org/10.1016/j.geothermics.2014.03.004},
+  keywords = {Geothermal, Energy pile, Heat exchanger, Line source, Layered ground},
+  url      = {http://www.sciencedirect.com/science/article/pii/S0375650514000285},
+}
+
+@InProceedings{CazorlaMartin2017,
+  author       = {Antonio Cazorla-Mar{\'i}n and Carla Montagud and {\'A}lvaro Montero and Julio Martos and Jos{\'e} Miguel Corber{\'a}n},
+  title        = {Influence of Different Ground Thermal Properties in a Borehole Heat Exchanger's Performance Using the {B2G} Dynamic Model},
+  booktitle    = {IGSHPA Technical/Research Conference Proceedings},
+  year         = {2017},
+  pages        = {192--200},
+  address      = {Denver},
+  organization = {IGSHPA},
+  note         = {March 14--16},
+}
+
+@InProceedings{BrussieuxBernier,
+  author       = {Yves Brussieux and Bichel Bernier},
+  title        = {A hybrid model for generating short-time g-functions},
+  booktitle    = {IGSHPA Research Conference Proceedings},
+  year         = {2018},
+  pages        = {48--57},
+  address      = {Stockholm, Sweden},
+  organization = {IGSHPA},
+  note         = {September 18-19},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
